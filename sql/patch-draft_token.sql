@@ -1,5 +1,4 @@
---
--- Schema patch for Drafts	
---
+-- Schema patch for Drafts (PostgreSQL version)
 
-ALTER TABLE /*_*/drafts modify draft_token varbinary(255);
+ALTER TABLE drafts
+ALTER COLUMN draft_token TYPE BYTEA;
