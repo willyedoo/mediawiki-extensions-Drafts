@@ -1,1 +1,1 @@
-CREATE INDEX /*i*/draft_title ON /*_*/drafts (draft_title, draft_namespace);
+CREATE INDEX draft_title_namespace ON drafts (draft_title, draft_namespace);
